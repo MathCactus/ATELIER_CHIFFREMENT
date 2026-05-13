@@ -4,6 +4,7 @@ function Write-Step ($msg) {
     Write-Host "`n[+] STEP: $msg" -ForegroundColor Cyan
 }
 
+
 function Write-Info ($msg) {
     Write-Host "    -> $msg" -ForegroundColor Gray
 }
