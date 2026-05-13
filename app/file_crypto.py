@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 from cryptography.fernet import Fernet
 
+
 def get_fernet() -> Fernet:
     key = os.environ.get("FERNET_KEY")
     if not key:
