@@ -4,6 +4,7 @@
 - Fork / clone ce repo
 - Bouton **Code** → **Create codespace on main**
 
+
 ## 2) Installer la bibliothèque Python Cryptographie
 ```bash
 pip install -r requirements.txt
