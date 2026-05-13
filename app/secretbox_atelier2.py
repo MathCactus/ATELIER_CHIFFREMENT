@@ -4,6 +4,7 @@ import nacl.utils
 
 def main():
     if len(sys.argv) < 2:
+        
         print("Usage: python secretbox_atelier2.py [generate_key|encrypt|decrypt] ...")
         sys.exit(1)
 
