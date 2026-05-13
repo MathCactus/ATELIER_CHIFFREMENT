@@ -1,6 +1,7 @@
 import os
 from cryptography.fernet import Fernet
 
+
 def load_key() -> bytes:
     """
     Charge la clé depuis la variable d'environnement FERNET_KEY.
